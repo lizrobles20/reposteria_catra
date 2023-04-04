@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5B299;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+}
+.contenedor{
+    width: 90%;
+    margin:0 auto;
+    padding:50px 0px;
+    
+}
+.barra{
+    width: 100%;
+    height: 15%;
+    background: #7D5A50;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding:8px;
+}
+.link{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    color: #FCDEC0;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+.titulo{
+    vertical-align: text-bottom;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-weight: 300;
+    color: white;
+}
+.fondo{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-weight: 300;
+}
+
+.texto_fondo{
+    overflow-x: hidden;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 150px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+}
+.texto_fondo img{
+    width: 40%;
+}
+
+  .container img {
+    margin: 0;
+    line-height: 0;
+    height: 30px;
+  }
+  .productos{
+      overflow-x: hidden;
+      overflow: hidden;
+      background: #E5B299;
+  }
+  .subtitulo{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+      font-size: 42px;
+  }
+  .minisup{
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 60px;
+  }
+  .container-cards{
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  }
+  .card{
+      width: 45%;
+      padding:30px 0;
+      background:#bd9783;
+      border-radius: 10px;
+      position: relative;
+      text-align: center;
+      margin: 50px 0px;
+      margin-bottom: 60px;
+  }
+ 
+  .card-2{
+    width: 45%;
+    padding:30px 0;
+    background:#bd9783;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin: 50px 0px;
+    margin-bottom: 60px;
+  }
+  .card_title{
+      font-family: 'Roboto', sans-serif;
+      font-size: 35px;
+      color: white;
+      text-align: center;
+      margin-bottom: 8px;
+  }
+  .card_text{
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: white;
+      margin: 0 25px;
+      margin-bottom: 8px;
+      text-align: left;
+      margin-bottom: 15px;
+  }
+  
+input[type="text"]{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-flex;
+    width: 40%;
+    margin-bottom: 20px;
+    border: 0;
+}
+input[type="radio"]{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+input[type="tel"], input[type="email"]{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-flex;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 0;
+}
+#texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-flex;
+    margin-bottom: 10px;
+    justify-content: left;
+    width: 80%;
+    height: 15%;
+}
+label{
+    padding: 0 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:white;
+    text-align: left;  
+    display: flex;
+    font-size: 17px;
+}
+.otro{
+    margin-left: 105px;
+}
+.otroN{
+    margin-left: 122px;
+}
+.card_cantidad{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      display: inline-block;
+      background: #FCDEC0;
+      border-radius: 6px;
+      text-decoration: none;
+      width: 30%;
+      color: black;
+      font-weight: 700;
+      padding: 5px;
+}
+input[type="number"]{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-flex;
+    width: 50%;
+    margin-bottom: 20px;
+}
+button[type="submit"], [type="button"]{
+      font-family: 'Roboto', sans-serif;
+      display: inline-block;
+      background: #FCDEC0;
+      border-radius: 6px;
+      width: 70%;
+      color: black;
+      font-weight: 700;
+      font-size: 15px;
+      text-align: center;
+      padding: 9px;
+      cursor: pointer;
+      border:0;
+      margin-left: 15%;
+}
+button[type="submit"]:hover, [type="button"]:hover{
+    background: rgba(125, 90, 80, .5);
+    transition: .5s;
+    color: white;
+  }
+  .table{
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #FCDEC0;
+    border-spacing: 0px;
+    margin-left: 20px;
+}
+.tablita{
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #FCDEC0;
+    border-spacing: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+th, td {
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #FCDEC0;
+    padding: 0.3em; 
+ }
+ .overlay{
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Roboto', sans-serif;
+    visibility: hidden;
+  }
+  .overlay.active{
+    visibility: visible;
+  }
+  .popup.active{
+    visibility: visible;
+  }
+  .popup{
+    background-color: #E5B299; 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    visibility: hidden;
+  }
+  .cerrar{
+    margin-top: 20px;
+    margin-right: 90px;
+}
+  @media screen and (max-width: 900px) {
+    .container-cards{
+        justify-content: center;
+        display: block;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-2{
+        width: 100%;
+    }
+    .productos {
+        width: 100%;
+    }
+    .card_title{
+        font-size: 35px;
+    }
+    .texto_fondo{
+        font-size: 30px;
+    }
+    .card_cantidad{
+        font-size: 13px;
+    }
+    .card_precio{
+        font-size: 13px;
+    }
+    .card_button{
+        font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    main .container,
+    main .contenedor{
+        padding: 60px 0;
+    }
+    .nav_container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .titulo{
+        padding: 15px 0;
+        text-align: center;
+    }
+    .links{
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .link{
+        padding: 7px 10px;
+    }
+  }

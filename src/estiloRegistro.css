@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #588DA8,#D8345F);
+}
+form {
+  background-color: #6C5B7B; 
+  border: 1px solid #6C5B7B; 
+  margin: 55px 0;
+  padding: 10px 0;
+  border-radius: 10px;
+  align-items: center;
+  
+}
+
+form .grupo{
+  position: relative;
+  margin: 30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background: none;
+  width: 100%;
+  padding: 14px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  border-bottom: 1px solid white;
+}
+button {
+    background-color: #DD7777;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    margin-left: 140px;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+  }
+  .cerrar{
+    width: 100%;
+    margin-left: 2px;
+    border-radius: 5px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 18;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  input:focus{
+      outline: none;
+      color:white;
+  }
+  input:focus~label, input:valid~label{
+     position: relative;
+     top: -65px;
+     color:coral;
+     font-size: 16px;
+  }
+  label{
+      color: lightslategray;
+      font-size: 16px;
+      position: relative;
+      left: 5px;
+      top: -32px;
+      transition: 0.3s ease all;
+      pointer-events: none;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+  }
+  .icon img {
+    width: 20%;
+  }
+  .overlay{
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+  }
+  .overlay.active{
+    visibility: visible;
+  }
+  .popup.active{
+    visibility: visible;
+  }
+  .popup{
+    background-color: #6C5B7B; 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    visibility: hidden;
+  }
+  .registrar{
+    text-align: center;
+   
+  }
+  .link{
+    padding: 10px;
+    color: black;
+  }
+  .registrado{
+    color:white;
+    top:0;
+  }
+  

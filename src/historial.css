@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+     
+        min-height: 100vh;
+    background-color: #E5B299;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+}
+.contenedor{
+    width: 90%;
+    margin:0 auto;
+    padding:50px 0px;
+}
+.barra{
+    width: 100%;
+    height: 15%;
+    background: #7D5A50;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding:8px;
+}
+.link{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    color: #FCDEC0;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+.titulo{
+    vertical-align: text-bottom;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-weight: 300;
+    color: white;
+}
+.container img {
+    margin: 0;
+    line-height: 0;
+    height: 30px;
+  }
+  .productos{
+      height: auto;
+      overflow-x: hidden;
+      overflow: hidden;
+      background: #E5B299;
+  }
+
+#content-search {
+    height: 70vh;
+    max-height: 80vh;
+    margin-left: 15%;
+    width: 70%;
+    top: calc(5% + 40px);
+  }
+  
+  .content-table {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #B4846C; 
+    overflow-y: visible;
+    overflow-x: hidden;
+    padding: 5px 12px;
+  }
+  .content-table table {
+    width: 100%;
+  }
+  tbody tr td a {
+    display: flex;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  tbody tr td a:hover {
+    background: rgba(125, 90, 80, .5);
+    color: white;
+    transition: .5s;
+  }
+  
+  h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .txtg{
+      color: white;
+    font-size: 1.4em !important;
+  }
+  .txtg tbody tr td{
+    padding: 10px;
+    font-weight: 300;
+  }
